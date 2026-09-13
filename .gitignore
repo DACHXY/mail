@@ -1,5 +1,6 @@
 # Rust build output and locally packaged artifacts
 /target/
+/result
 /.flatpak-builder/
 /libs/
 /.artifacts/
