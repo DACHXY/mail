@@ -1810,7 +1810,7 @@ fn relative_time_at(timestamp_ms: i64, now: DateTime<Local>) -> String {
 
 fn text_to_html(text: &str) -> String {
     format!(
-        "<html><body style=\"font-family:Arial,sans-serif;padding:32px;line-height:1.6;color:#303348\"><p>{}</p></body></html>",
+        "<html><body style=\"font-family:Arial,sans-serif;padding:32px;line-height:1.6;color:#303348\"><p style=\"white-space:pre-wrap\">{}</p></body></html>",
         escape_html(text)
     )
 }
